@@ -2,7 +2,16 @@
 
 A local-first AI cooking companion for Balkan recipes and meal planning. Built with Next.js, LangChain/LangGraph, SpacetimeDB, and PostgreSQL/pgvector. Licensed under [MIT](LICENSE).
 
-![Baba Selo chat interface with suggested cooking questions, image uploads, and kitchen timers](docs/images/chat-ui.jpg)
+<table>
+  <tr>
+    <th>Chat interface</th>
+    <th>LangGraph architecture</th>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><a href="docs/images/chat-ui.jpg"><img src="docs/images/chat-ui.jpg" alt="Baba Selo chat interface with suggested cooking questions, image uploads, and kitchen timers" width="100%"></a></td>
+    <td width="50%" valign="top"><a href="docs/images/langgraph-architecture.jpg"><img src="docs/images/langgraph-architecture.jpg" alt="Baba Selo LangGraph workflow explorer showing the chat agent, tool loop, and implementation details" width="100%"></a></td>
+  </tr>
+</table>
 
 ## Quick start
 
